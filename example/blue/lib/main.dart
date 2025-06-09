@@ -1,15 +1,16 @@
 import 'dart:io';
 import 'dart:typed_data';
-import 'package:intl/intl.dart';
-import 'package:permission_handler/permission_handler.dart';
-import 'package:qr_flutter/qr_flutter.dart';
-import 'package:path_provider/path_provider.dart';
+
+import 'package:esc_pos_bluetooth/esc_pos_bluetooth.dart';
+import 'package:esc_pos_utils/esc_pos_utils.dart';
+import 'package:flutter/material.dart' hide Image;
 import 'package:flutter/services.dart';
 import 'package:image/image.dart';
-import 'package:esc_pos_utils/esc_pos_utils.dart';
-import 'package:esc_pos_bluetooth/esc_pos_bluetooth.dart';
-import 'package:flutter/material.dart' hide Image;
+import 'package:intl/intl.dart';
 import 'package:oktoast/oktoast.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:permission_handler/permission_handler.dart';
+import 'package:qr_flutter/qr_flutter.dart';
 
 void main() => runApp(MyApp());
 

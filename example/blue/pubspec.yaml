@@ -11,10 +11,13 @@ dependencies:
   cupertino_icons: ^1.0.3
   esc_pos_bluetooth:
     path: ../../
-  esc_pos_utils: ^1.1.0
+  esc_pos_utils:
+    git:
+      url: https://github.com/alfas-hancod/esc_pos_utils
+      ref: master
   flutter:
     sdk: flutter
-  image: ^3.0.2
+  image: ^4.5.4
   intl: ^0.20.2
   oktoast: ^3.0.0
   path_provider: ^2.0.2
